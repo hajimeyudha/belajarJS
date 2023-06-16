@@ -23,3 +23,25 @@ console.log("Windows path: C:\\Program Files\\MyProject");//source dicoding, bac
 
 //String Interpolation
 console.log(`Halo semuanya, kenalin namaku ${kalimat2}`);
+
+//Assignment operator
+let x = 1;
+let y = 2;
+x += y;
+console.log(x);
+/**
+ * Ada yang -=
+ * /=
+ * *=
+ * %=
+ */
+
+//Comparison
+
+x = '1'; //string
+y = 1; //number
+
+console.log(x == y);
+console.log(x === y);
+console.log(x != y);
+console.log(x !== y);
