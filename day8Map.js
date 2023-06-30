@@ -9,3 +9,7 @@ const mapSaya = new Map([ //first array buat menyimpan key value
 
 console.log(mapSaya);
 console.log(mapSaya.get('1'));
+
+//untuk menambahkan data ke dalam map, bisa menggunakan set
+mapSaya.set(3, "mantap");
+console.log(mapSaya.get(3));
